@@ -69,10 +69,7 @@ Generally, there is 4 jupyter notebooks in the `Code` file.
 </p>
 
 2. Use the [`02_MIP.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/02_MIP.ipynb) to run the mixed integer programming model.
-3. Use the [`02_CP.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/02_CP.ipynb) to run constraint programming model.
+3. Use the [`03_CP.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/03_CP.ipynb) to run constraint programming model.
 
-3. Use the [`04_validation.ipynb`]()
-oFilename: 
-oConverting python solution to xml competition format 
-oSolution in xml format is in Solution/xml folder with name formatted as sol_{dataset}_{programming_type}.xml
+3. Use the [`04_validation.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/04_validation.ipynb) to converting python solution to xml format which can be submitted on the portal of the competition. *Noted*: Solution in xml format is in Solution/xml folder with name formatted as sol_{dataset}_{programming_type}.xml
 
