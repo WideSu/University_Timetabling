@@ -8,7 +8,7 @@ The domain of high school timetabling is not well developed when compared to oth
 
 # 2. Problem Definition and Assumptions
 The problem consists of university courses and student course requests. <br>
-Our goal is to find a proper time, a room and students for all the classes.
+Our goal is to **find a proper time, a room and students for all the classes.**
 <p align="center">
     <img width="575" alt="image" src="https://user-images.githubusercontent.com/44923423/161932477-52f6e811-ac17-43ad-b348-6bfebaaede6c.png">
 </p>
@@ -17,16 +17,20 @@ Our goal is to find a proper time, a room and students for all the classes.
 Mixed integer programming, Heuristics, GA
 
 # 4. Our model
+<p align="center">
   <img width="462" alt="image" src="https://user-images.githubusercontent.com/44923423/161933180-5c9e6aea-3e3d-455f-a5b5-042dd43cf244.png">
-## 4.1 MIP
-### Decision variables
-
+</p>
+    
+    ## 4.1 MIP
+        ### Decision variables
+<p align="center">
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/44923423/161933328-8fb6f1dd-1fee-4075-90e2-bd849f071ae0.png">
+</p>
 
 ### Objective function
-
+<p align="center">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/44923423/161933480-b7e24001-ac20-4087-9c98-89a9b9af6a3e.png">
-
+</p>
 ### Constraints
 
 - H1: Every class must be assigned a time
@@ -40,14 +44,14 @@ Mixed integer programming, Heuristics, GA
 - 
 ## 4.2 CP
 ### Decision variables
-
+<p align="center">
 <img width="711" alt="image" src="https://user-images.githubusercontent.com/44923423/161934245-ab555d8d-f946-413e-aec8-b5d90a479dd3.png">
-
+</p>
 ### Objective function
-
+<p align="center">
 <img width="227" alt="image" src="https://user-images.githubusercontent.com/44923423/161934391-1e3d2b9f-3be0-4430-8ed5-b8bbbc559af7.png">
-
+</p>
 ### Constraints
+<p align="center">
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/44923423/161934549-f137b76d-2135-461c-a05f-b7d89cc3f846.png">
-
-
+</p>
