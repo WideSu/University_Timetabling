@@ -21,8 +21,8 @@ Mixed integer programming, Heuristics, GA
   <img width="462" alt="image" src="https://user-images.githubusercontent.com/44923423/161933180-5c9e6aea-3e3d-455f-a5b5-042dd43cf244.png">
 </p>
     
-    ## 4.1 MIP
-        ### Decision variables
+## 4.1 MIP
+### Decision variables
 <p align="center">
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/44923423/161933328-8fb6f1dd-1fee-4075-90e2-bd849f071ae0.png">
 </p>
