@@ -41,16 +41,18 @@ Mixed integer programming, Heuristics, GA
 - H6: A room cannot be used when it is unavailable
 - H7: The pairs of classes in SameAttendees should not overlap in time Ex: Prof Dai is teaching Algorithm & Applied ML – these 2 classes cannot happen at the same time
 - H8: Two classes can’t be at the same time and the same room
-- 
+
 ## 4.2 CP
 ### Decision variables
 <p align="center">
 <img width="711" alt="image" src="https://user-images.githubusercontent.com/44923423/161934245-ab555d8d-f946-413e-aec8-b5d90a479dd3.png">
 </p>
+
 ### Objective function
 <p align="center">
 <img width="227" alt="image" src="https://user-images.githubusercontent.com/44923423/161934391-1e3d2b9f-3be0-4430-8ed5-b8bbbc559af7.png">
 </p>
+
 ### Constraints
 <p align="center">
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/44923423/161934549-f137b76d-2135-461c-a05f-b7d89cc3f846.png">
