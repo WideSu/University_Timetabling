@@ -61,8 +61,15 @@ Mixed integer programming, Heuristics, GA
 
 # Notebook Instructions 
 Here is how you can run this:
-1. Use `01_data_extraction.ipynb` to convert the dataset from xml format to python format
-oconverting the dataset from .xml format to python format (lists & dictionary containers)
+
+Generally, there is 4 jupyter notebooks in the `Code` file.
+1. Use [`01_data_extraction.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/01_data_extraction.ipynb) to convert the raw_data(in data/raw_data) from xml format to python format. Note that those are sample data downloaded from ITC website. You can also download other instances via this [link](https://www.itc2019.org/instances/all) to test.
+<p align="center">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/44923423/161974394-2bc76c90-fcfc-4404-8fc1-29bbea20dc93.png">
+</p>
+
+2. Use the `02_CP.ipynb`
+
 oXML files are located in Downloaded folder (raw data file downloaded from the ITC Competition website: ITC 2019: International Timetabling Competition 2019)
 oSave Python format files are: dataset_01.py and dataset_04.py
 Mixed Integer Programming
