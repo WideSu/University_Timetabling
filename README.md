@@ -1,5 +1,9 @@
 # CS606_ITC
-This is our group project for **CS606 AI planning and decision making** based on the [2019 international university timetabling competition](https://www.itc2019.org/home) which used commercial software IBM **CPLEX** to **generate feasible course timetables with minimum penalty**. In general, we drawed few assumptions to make this competition problem doable in 4 weeks. And we developed our own constraint programming, mixed integer programming models, and tested them on two datasets provided on ITC official website and compared the result.
+This is our group project for **CS606 AI planning and decision making** based on the [2019 international university timetabling competition](https://www.itc2019.org/home) which used commercial software IBM **CPLEX** to **generate feasible course timetables with minimum penalty**. 
+
+1. We drawed few assumptions to make this competition problem doable in 4 weeks. 
+2. And we developed our own constraint programming, mixed integer programming models, 
+3. Tested them on two datasets provided on ITC official website and compared the result.
 
 You can check out for the detail of this project in the [slides](https://github.com/WideSu/CS606_ITC/blob/main/documents/ITC_Presentation_Slides.pdf) and [report](https://github.com/WideSu/CS606_ITC/blob/main/documents/G4_MIP%20and%20CP%20for%20ITC%20problem.pdf)
 
