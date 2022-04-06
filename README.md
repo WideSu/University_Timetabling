@@ -2,6 +2,20 @@
 This is our group project for **CS606 AI planning and decision making** based on the [2019 international university timetabling competition](https://www.itc2019.org/home). 
 You can check out for the detail of this project in the [slides](https://github.com/WideSu/CS606_ITC/blob/main/documents/ITC_Presentation_Slides.pdf) and [report](https://github.com/WideSu/CS606_ITC/blob/main/documents/G4_MIP%20and%20CP%20for%20ITC%20problem.pdf)
 
+# Notebook Instructions 
+Here is how you can run this:
+
+Generally, there is 4 jupyter notebooks in the `Code` file.
+1. Use [`01_data_extraction.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/01_data_extraction.ipynb) to convert the raw_data(in data/raw_data) from xml format to python format. Note that those are sample data downloaded from ITC website. You can also download other instances via this [link](https://www.itc2019.org/instances/all) to test.
+<p align="center">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/44923423/161974394-2bc76c90-fcfc-4404-8fc1-29bbea20dc93.png">
+</p>
+
+2. Use the [`02_MIP.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/02_MIP.ipynb) to run the mixed integer programming model.
+3. Use the [`03_CP.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/03_CP.ipynb) to run constraint programming model.
+
+3. Use the [`04_validation.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/04_validation.ipynb) to converting python solution to xml format which can be submitted on the portal of the competition. *Noted*: Solution in xml format is in Solution/xml folder with name formatted as sol_{dataset}_{programming_type}.xml
+
 # 1. Introduction
 The university timetabling is a classical combinatorial optimization problem that takes a large number of variables and constraints into account. Student allocating and class scheduling decisions need to be made jointly against the backdrop of classroom and timeslot penalty and subject to practical rules. We model this problem as a two-stage mixed integer program which search for a feasible solution at the start and graduately improve from it iteratively, which reduced the time to get optimal solution by 58\%. Besides, we used a constraint programming method with the same objective function and constraints and compared the results for the two methods on 2019 ITC datasets. A comparison with results reported in this passage shows that the MIP approach outperformed the constraint programming approach in faster speed and better solution.
 
@@ -59,28 +73,4 @@ Mixed integer programming, Heuristics, GA
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/44923423/161934549-f137b76d-2135-461c-a05f-b7d89cc3f846.png">
 </p>
 
-# Notebook Instructions 
-Here is how you can run this:
-
-Generally, there is 4 jupyter notebooks in the `Code` file.
-1. Use [`01_data_extraction.ipynb`](https://github.com/WideSu/CS606_ITC/blob/main/Code/01_data_extraction.ipynb) to convert the raw_data(in data/raw_data) from xml format to python format. Note that those are sample data downloaded from ITC website. You can also download other instances via this [link](https://www.itc2019.org/instances/all) to test.
-<p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/44923423/161974394-2bc76c90-fcfc-4404-8fc1-29bbea20dc93.png">
-</p>
-
-2. Use the `02_CP.ipynb`
-
-oXML files are located in Downloaded folder (raw data file downloaded from the ITC Competition website: ITC 2019: International Timetabling Competition 2019)
-oSave Python format files are: dataset_01.py and dataset_04.py
-Mixed Integer Programming
-oFilename: 02_MIP.ipynb
-orunning MIP model to solve and saving result to Solution folder as format sol_{dataset}_mp.py
-oLog for each run is saved in Progress folder
-Constraint Programming
-oFilename: 03_CP.ipynb
-oRunning CP model to solve and saving result to Solution folder with name formatted as sol_{dataset}_cp.py
-Validation
-oFilename: 04_validation.ipynb
-oConverting python solution to xml competition format 
-oSolution in xml format is in Solution/xml folder with name formatted as sol_{dataset}_{programming_type}.xml
 
