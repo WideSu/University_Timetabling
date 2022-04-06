@@ -7,8 +7,11 @@ Educational timetabling is an ongoing challenging administrative task that is re
 The domain of high school timetabling is not well developed when compared to other fields of educational timetabling such exam timetabling and high-school timetabling.
 
 # 2. Problem Definition and Assumptions
-The problem consists of university courses and student course requests. Our goal is to find a proper time, a room and students for all the classes.
-<img width="575" alt="image" src="https://user-images.githubusercontent.com/44923423/161932477-52f6e811-ac17-43ad-b348-6bfebaaede6c.png">
+The problem consists of university courses and student course requests. <br>
+Our goal is to find a proper time, a room and students for all the classes.
+<p align="center">
+    <img width="575" alt="image" src="https://user-images.githubusercontent.com/44923423/161932477-52f6e811-ac17-43ad-b348-6bfebaaede6c.png">
+</p>
 
 # 3. Related work
 Mixed integer programming, Heuristics, GA
