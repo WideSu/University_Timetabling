@@ -31,6 +31,7 @@ Mixed integer programming, Heuristics, GA
 <p align="center">
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/44923423/161933480-b7e24001-ac20-4087-9c98-89a9b9af6a3e.png">
 </p>
+
 ### Constraints
 
 - H1: Every class must be assigned a time
@@ -43,6 +44,7 @@ Mixed integer programming, Heuristics, GA
 - H8: Two classes can’t be at the same time and the same room
 
 ## 4.2 CP
+
 ### Decision variables
 <p align="center">
 <img width="711" alt="image" src="https://user-images.githubusercontent.com/44923423/161934245-ab555d8d-f946-413e-aec8-b5d90a479dd3.png">
