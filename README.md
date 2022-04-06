@@ -17,10 +17,15 @@ Mixed integer programming, Heuristics, GA
   <img width="462" alt="image" src="https://user-images.githubusercontent.com/44923423/161933180-5c9e6aea-3e3d-455f-a5b5-042dd43cf244.png">
 ## 4.1 MIP
 ### Decision variables
+
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/44923423/161933328-8fb6f1dd-1fee-4075-90e2-bd849f071ae0.png">
+
 ### Objective function
+
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/44923423/161933480-b7e24001-ac20-4087-9c98-89a9b9af6a3e.png">
+
 ### Constraints
+
 - H1: Every class must be assigned a time
 - H2: Every class must be assigned a room 
 - H3: Every student must attend exactly one class for each subpart that he/she must attend
@@ -29,11 +34,16 @@ Mixed integer programming, Heuristics, GA
 - H6: A room cannot be used when it is unavailable
 - H7: The pairs of classes in SameAttendees should not overlap in time Ex: Prof Dai is teaching Algorithm & Applied ML – these 2 classes cannot happen at the same time
 - H8: Two classes can’t be at the same time and the same room
+- 
 ## 4.2 CP
 ### Decision variables
+
 <img width="711" alt="image" src="https://user-images.githubusercontent.com/44923423/161934245-ab555d8d-f946-413e-aec8-b5d90a479dd3.png">
+
 ### Objective function
+
 <img width="227" alt="image" src="https://user-images.githubusercontent.com/44923423/161934391-1e3d2b9f-3be0-4430-8ed5-b8bbbc559af7.png">
+
 ### Constraints
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/44923423/161934549-f137b76d-2135-461c-a05f-b7d89cc3f846.png">
 
