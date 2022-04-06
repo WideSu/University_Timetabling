@@ -1,5 +1,6 @@
 # CS606_ITC
-This is our group project for **CS606 AI planning and decision making** based on the [2019 international university timetabling competition](https://www.itc2019.org/home). You can check out for the detail of this project in the [slides](https://github.com/WideSu/CS606_ITC/blob/main/documents/ITC_Presentation_Slides.pptx) and [report](https://github.com/WideSu/CS606_ITC/blob/main/documents/G4_MIP%20and%20CP%20for%20ITC%20problem.pdf)
+This is our group project for **CS606 AI planning and decision making** based on the [2019 international university timetabling competition](https://www.itc2019.org/home). 
+You can check out for the detail of this project in the [slides](https://github.com/WideSu/CS606_ITC/blob/main/documents/ITC_Presentation_Slides.pdf) and [report](https://github.com/WideSu/CS606_ITC/blob/main/documents/G4_MIP%20and%20CP%20for%20ITC%20problem.pdf)
 
 # 1. Introduction
 The university timetabling is a classical combinatorial optimization problem that takes a large number of variables and constraints into account. Student allocating and class scheduling decisions need to be made jointly against the backdrop of classroom and timeslot penalty and subject to practical rules. We model this problem as a two-stage mixed integer program which search for a feasible solution at the start and graduately improve from it iteratively, which reduced the time to get optimal solution by 58\%. Besides, we used a constraint programming method with the same objective function and constraints and compared the results for the two methods on 2019 ITC datasets. A comparison with results reported in this passage shows that the MIP approach outperformed the constraint programming approach in faster speed and better solution.
@@ -19,7 +20,7 @@ Mixed integer programming, Heuristics, GA
   <img width="462" alt="image" src="https://user-images.githubusercontent.com/44923423/161933180-5c9e6aea-3e3d-455f-a5b5-042dd43cf244.png">
 </p>
     
-## 4.1 MIP
+## 4.1 Mixed Integer Programming Model
 ### Decision variables
 <p align="center">
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/44923423/161933328-8fb6f1dd-1fee-4075-90e2-bd849f071ae0.png">
@@ -41,7 +42,7 @@ Mixed integer programming, Heuristics, GA
 - H7: The pairs of classes in SameAttendees should not overlap in time Ex: Prof Dai is teaching Algorithm & Applied ML – these 2 classes cannot happen at the same time
 - H8: Two classes can’t be at the same time and the same room
 
-## 4.2 CP
+## 4.2 Constraint Programming Model
 
 ### Decision variables
 <p align="center">
