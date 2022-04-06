@@ -57,3 +57,22 @@ Mixed integer programming, Heuristics, GA
 <p align="center">
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/44923423/161934549-f137b76d-2135-461c-a05f-b7d89cc3f846.png">
 </p>
+
+# Notebook Instructions 
+Here is how you can run this:
+1. Use `01_data_extraction.ipynb` to convert the dataset from xml format to python format
+oconverting the dataset from .xml format to python format (lists & dictionary containers)
+oXML files are located in Downloaded folder (raw data file downloaded from the ITC Competition website: ITC 2019: International Timetabling Competition 2019)
+oSave Python format files are: dataset_01.py and dataset_04.py
+Mixed Integer Programming
+oFilename: 02_MIP.ipynb
+orunning MIP model to solve and saving result to Solution folder as format sol_{dataset}_mp.py
+oLog for each run is saved in Progress folder
+Constraint Programming
+oFilename: 03_CP.ipynb
+oRunning CP model to solve and saving result to Solution folder with name formatted as sol_{dataset}_cp.py
+Validation
+oFilename: 04_validation.ipynb
+oConverting python solution to xml competition format 
+oSolution in xml format is in Solution/xml folder with name formatted as sol_{dataset}_{programming_type}.xml
+
