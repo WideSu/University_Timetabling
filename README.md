@@ -1,5 +1,5 @@
 # CS606_ITC
-This is our group project for CS606 AI planning and decision making based on the 2019 international university timetabling competition. You can check out for the detail of this project in the [slides](https://github.com/WideSu/CS606_ITC/blob/main/ITC_Presentation_Slides.pptx) and [report](https://github.com/WideSu/CS606_ITC/blob/main/G4_MIP%20and%20CP%20for%20ITC%20problem.pdf) 
+This is our group project for **CS606 AI planning and decision making** based on the [2019 international university timetabling competition](https://www.itc2019.org/home). You can check out for the detail of this project in the [slides](https://github.com/WideSu/CS606_ITC/blob/main/ITC_Presentation_Slides.pptx) and [report](https://github.com/WideSu/CS606_ITC/blob/main/G4_MIP%20and%20CP%20for%20ITC%20problem.pdf) 
 
 # 1. Introduction
 Educational timetabling is an ongoing challenging administrative task that is required in most academic institutions. This is mainly due to a large number of constraints and requirements that have to be satisfied. Educational timetabling problems have been classified as NP-hard problems and can be divided into three types: exam timetabling, course timetabling and high school timetabling.
