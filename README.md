@@ -2,7 +2,7 @@
 An AI planing project based on the [2019 international university timetabling competition](https://www.itc2019.org/home) which used commercial software IBM **CPLEX** to **generate feasible course timetables with minimum penalty**. 
 Our contributions include:
 1. Drawed few assumptions to make this competition problem doable in 4 weeks. 
-2. Developed our own constraint programming, mixed integer programming models, 
+2. Developed our own constraint programming, mixed integer programming models by modeling this problem as a two-stage mixed-integer program that searches for a feasible solution at the start and gradually improves from it iteratively, which reduced the time to get an optimal solution by 58%, showed comparison with results reported in this passage shows that the MIP approach outperformed the constraint programming approach in faster speed and better solutions.
 3. Tested them on two datasets provided on ITC official website and compared the result.
 
 You can check out for the detail of this project in the [slides](https://github.com/WideSu/CS606_ITC/blob/main/documents/ITC_Presentation_Slides.pdf) and [report](https://github.com/WideSu/CS606_ITC/blob/main/documents/G4_MIP%20and%20CP%20for%20ITC%20problem.pdf)
