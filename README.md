@@ -1,5 +1,5 @@
 # CS606_ITC
-A project based on the [2019 international university timetabling competition](https://www.itc2019.org/home) which used commercial software IBM **CPLEX** to **generate feasible course timetables with minimum penalty**. 
+An AI planing project based on the [2019 international university timetabling competition](https://www.itc2019.org/home) which used commercial software IBM **CPLEX** to **generate feasible course timetables with minimum penalty**. 
 Our contributions include:
 1. Drawed few assumptions to make this competition problem doable in 4 weeks. 
 2. Developed our own constraint programming, mixed integer programming models, 
